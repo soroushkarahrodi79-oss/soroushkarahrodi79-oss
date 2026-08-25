@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 200" role="img" aria-labelledby="hero-title hero-desc">
+  <title id="hero-title">Topographic contour banner</title>
+  <desc id="hero-desc">Abstract topographic contour lines, evoking terrain and protected-area mapping.</desc>
+  <g fill="none" stroke="#7c8a99" stroke-width="1.1" stroke-linecap="round">
+    <path opacity="0.55" d="M -20 150 C 120 120, 220 170, 340 140 S 560 90, 700 130 S 940 175, 1080 135 S 1220 100, 1260 130" />
+    <path opacity="0.45" d="M -20 165 C 100 145, 240 185, 360 160 S 600 115, 740 150 S 960 190, 1100 155 S 1230 125, 1260 150" />
+    <path opacity="0.65" d="M -20 128 C 140 95, 260 145, 380 112 S 580 60, 720 100 S 920 150, 1060 105 S 1220 75, 1260 100" />
+    <path opacity="0.35" d="M -20 178 C 110 162, 250 195, 380 175 S 610 140, 760 168 S 980 198, 1120 172 S 1230 150, 1260 168" />
+    <path opacity="0.55" d="M -20 100 C 160 65, 280 115, 400 82 S 600 30, 760 68 S 980 118, 1120 72 S 1230 45, 1260 68" />
+    <path opacity="0.3" d="M -20 68 C 180 35, 300 82, 430 50 S 640 5, 800 40 S 1010 88, 1140 42 S 1230 18, 1260 38" />
+  </g>
+  <g fill="#9aa7b4">
+    <circle cx="420" cy="112" r="2.4" opacity="0.8" />
+    <circle cx="760" cy="100" r="2.4" opacity="0.8" />
+    <circle cx="1040" cy="135" r="2.4" opacity="0.8" />
+  </g>
+</svg>
