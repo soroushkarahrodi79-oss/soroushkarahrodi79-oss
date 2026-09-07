@@ -6,60 +6,119 @@
 
 **Tourism Intelligence · Geospatial Research · Decision Systems**
 
-I build evidence-first systems that turn geospatial, climate and field data into
-defensible decisions for tourism destinations and protected areas.
+I build evidence-first systems at the intersection of **tourism, geospatial analysis, climate risk and field research**.
+
+My work focuses on turning spatial, environmental and field data into transparent, auditable decision-support workflows — while keeping **provenance, uncertainty and claim boundaries explicit**.
 
 ---
 
-## Selected work
+## Start here
+
+### [Spatial Intelligence Atlas](https://github.com/soroushkarahrodi79-oss/spatial-intelligence-atlas)
+
+An interactive map of how my main research and software systems relate across **territory, evidence and decisions**.
+
+**[Open the Atlas](https://soroushkarahrodi79-oss.github.io/spatial-intelligence-atlas/)**
+
+It connects HATI, FIRSTLOOK-MAD, SNTO, FieldOS and FAB conceptually.
+
+> These are separate systems with related research questions — not a single technically integrated platform.
+
+---
+
+## Flagship work
 
 ### [SNTO — Smart Nature Tourism Observatory](https://github.com/soroushkarahrodi79-oss/snto-smart-tourism-observatory)
-Protected-area decision intelligence built on Earth observation and explicit
-evidence/provenance. Sentinel-2 signal → calibrated ecological indicators →
-causal attribution (tourism pressure vs. climate) → budgeted, confidence-scored
-investment priority, applied to Parque Nacional Sierra de Guadarrama (218 trails,
-official OAPN cartography).
 
-[Live dashboard](https://snto-observatory.happyground-be027676.swedencentral.azurecontainerapps.io/) · [DOI](https://doi.org/10.5281/zenodo.20818269) · [Whitepaper](https://github.com/soroushkarahrodi79-oss/snto-smart-tourism-observatory/blob/main/WHITEPAPER_SNTO_Architecture_Blueprint.md)
+Protected-area decision intelligence built around Earth observation, spatial evidence and explicit provenance.
 
-### [Open Travel CRM](https://github.com/soroushkarahrodi79-oss/travel-agency-crm-google-sheets)
-A self-hosted, secure CRM for small travel agencies that runs on Google Sheets
-and Apps Script — leads, reservations, installment payments, roles and an audit
-trail, without a database server.
+SNTO uses Sentinel-2 and official territorial data to investigate environmental condition, tourism pressure and intervention priorities in **Parque Nacional Sierra de Guadarrama**, while keeping evidence status, uncertainty and field-validation boundaries visible.
 
-[Interactive demo](https://soroushkarahrodi79-oss.github.io/travel-agency-crm-google-sheets/)
+**[Live dashboard](https://snto-observatory.happyground-be027676.swedencentral.azurecontainerapps.io/)** · **[DOI](https://doi.org/10.5281/zenodo.20818269)** · **[Whitepaper](https://github.com/soroushkarahrodi79-oss/snto-smart-tourism-observatory/blob/main/WHITEPAPER_SNTO_Architecture_Blueprint.md)**
+
+---
+
+### [HATI-Madrid — Heat-Aware Tourism Intelligence](https://github.com/soroushkarahrodi79-oss/heat-adaptive-tourism-madrid)
+
+A reproducible research pilot examining **heat-adaptive urban tourism opportunity screening** in central Madrid.
+
+HATI compares alternative thermal representations inside a constraint-first decision architecture, keeping thermal state, eligibility, evidence and uncertainty auditable rather than collapsing them into a single score.
+
+**Status:** public pre-submission research repository · not an operational or real-time tourism system.
+
+---
 
 ### [FieldOS](https://github.com/soroushkarahrodi79-oss/fieldos)
-Offline-first field research PWA for structured tourism evidence: sessions,
-observations, GPS provenance and photos captured on-device, exported as
-portable JSON/CSV/GeoJSON with no network dependency.
 
-[Deployment](https://fieldos-sigma.vercel.app)
+An **offline-first field research PWA** for structured evidence collection.
 
----
+FieldOS captures sessions, observations, GPS provenance, photos and voice notes on-device, preserves revision history, supports spatial inspection and exports portable JSON, CSV, GeoJSON and full-session backups without requiring a backend.
 
-## Research & experiments
-
-- **[SNTO Alpine](https://github.com/soroushkarahrodi79-oss/snto-alpine)** — a research extension of SNTO applying the same engine to a second, high-mountain pilot (Sierra Nevada). Explicitly does not inherit the base project's release lineage, DOI, or field-validation status; treated as its own prototype, not a competing flagship.
-- **[Tourism Signal Radar](https://github.com/soroushkarahrodi79-oss/radar)** — a pre-build validation experiment testing whether a structured Signal → Evidence → Decision → Action workflow beats a plain note template, before any production software gets written.
+**[Live deployment](https://fieldos-sigma.vercel.app)**
 
 ---
 
-## What I work on
+### [FIRSTLOOK-MAD](https://github.com/soroushkarahrodi79-oss/firstlook-mad)
 
-- Tourism decision intelligence
-- Earth observation & geospatial evidence
-- Field-to-decision research systems
+A falsification-first research prototype investigating whether a distributed UAS network could improve **Time To First Reliable Picture** for wildfire response in the Community of Madrid.
 
-I care about provenance, uncertainty, and knowing when a system should **not**
-make a recommendation.
+The project separates evidence, assumptions, simulation and decision gates explicitly.
+
+**Research/simulation only:** no drone control, emergency dispatch or operational flight claims.
+
+---
+
+## Applied software
+
+### [Open Travel CRM](https://github.com/soroushkarahrodi79-oss/travel-agency-crm-google-sheets)
+
+An open-source CRM for small travel agencies built with Google Sheets and Apps Script.
+
+Leads, reservations, installment payments, roles and audit history — without requiring a conventional database server.
+
+**[Interactive demo](https://soroushkarahrodi79-oss.github.io/travel-agency-crm-google-sheets/)**
+
+---
+
+## Research infrastructure & experiments
+
+* **[FAB — Field Atlas](https://github.com/soroushkarahrodi79-oss/fab)** — an interactive research instrument connecting territory, Earth observation, signals, provenance and decision scenarios while keeping authentic, derived and simulated evidence distinguishable.
+
+* **[Tourism Signal Radar](https://github.com/soroushkarahrodi79-oss/radar)** — a pre-build validation experiment testing whether a structured **Signal → Evidence → Decision → Action** workflow creates more defensible research decisions than unstructured signal collection.
+
+* **[SNTO Alpine](https://github.com/soroushkarahrodi79-oss/snto-alpine)** — an independent research prototype applying the SNTO approach to a second high-mountain context in Sierra Nevada without inheriting the base project's validation or release claims.
+
+---
+
+## How I work
+
+**Evidence before recommendation.**
+
+I try to keep four things separate:
+
+* what was actually observed or acquired;
+* what was derived or modelled;
+* what is still simulated or provisional;
+* what the available evidence genuinely supports deciding.
+
+A system saying **“there is not enough evidence to recommend this”** is sometimes a better result than producing another score.
+
+---
+
+## Current research themes
+
+Tourism decision intelligence · Smart and sustainable destinations · Climate adaptation · Protected areas · Remote sensing · Spatial evidence · Field research systems · Reproducible decision support
 
 ---
 
 ## Toolchain
 
-Python · TypeScript · PostGIS · Google Earth Engine · Sentinel-2 / Copernicus · Azure · GitHub Actions
+**Python · TypeScript · React · GeoPandas · PostGIS · Google Earth Engine · Sentinel-2 / Copernicus · MapLibre · Azure · GitHub Actions**
 
 ---
 
-<sub>DOI and dashboard links above point to live, verifiable endpoints as of this writing.</sub>
+## Collaboration
+
+I'm interested in research and open-source collaboration around **geospatial decision support, tourism intelligence, climate adaptation, protected-area management and field evidence systems**.
+
+If you're working on an adjacent problem, open an issue in the relevant repository and let's compare approaches.
