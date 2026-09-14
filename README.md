@@ -44,7 +44,7 @@ A reproducible research pilot examining **heat-adaptive urban tourism opportunit
 
 HATI compares alternative thermal representations inside a constraint-first decision architecture, keeping thermal state, eligibility, evidence and uncertainty auditable rather than collapsing them into a single score.
 
-**Status:** public pre-submission research repository · not an operational or real-time tourism system.
+**Status:** public non-peer-reviewed preprint — publicly available on [ResearchGate](https://www.researchgate.net/publication/414226835_Thermal_representation_as_a_decision_variable_in_heat-adaptive_tourism_opportunity_screening_evidence_from_a_Madrid_pilot) (Zenodo archival upload pending) · not an operational or real-time tourism system.
 
 ---
 
