@@ -32,7 +32,7 @@ It connects HATI, FIRSTLOOK-MAD, SNTO, FieldOS and FAB conceptually.
 
 Protected-area decision intelligence built around Earth observation, spatial evidence and explicit provenance.
 
-SNTO uses Sentinel-2 and official territorial data to investigate environmental condition, tourism pressure and intervention priorities in **Parque Nacional Sierra de Guadarrama**, while keeping evidence status, uncertainty and field-validation boundaries visible.
+SNTO uses Sentinel-2 and official territorial data to track environmental-condition and environmental-change signals in **Parque Nacional Sierra de Guadarrama**, turning them into evidence-aware monitoring and field-inspection priorities — without claiming to measure tourism pressure or establish its causal link to environmental change — while keeping provenance, uncertainty and validation boundaries explicit.
 
 **[Live dashboard](https://snto-observatory.happyground-be027676.swedencentral.azurecontainerapps.io/)** · **[DOI](https://doi.org/10.5281/zenodo.20818269)** · **[Whitepaper](https://github.com/soroushkarahrodi79-oss/snto-smart-tourism-observatory/blob/main/WHITEPAPER_SNTO_Architecture_Blueprint.md)**
 
