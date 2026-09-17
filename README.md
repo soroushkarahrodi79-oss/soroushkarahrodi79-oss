@@ -26,7 +26,7 @@ I design research and software workflows that turn **spatial, environmental and 
 
 **Earth observation and spatial evidence for protected-area decision support.**
 
-SNTO combines Sentinel-2 with official territorial data to monitor environmental-condition and environmental-change signals in **Parque Nacional Sierra de Guadarrama**.
+SNTO combines Sentinel-2 with official territorial data to monitor environmental-condition and environmental-change signals in **Parque Nacional de la Sierra de Guadarrama**.
 
 The system turns those signals into evidence-aware monitoring and field-inspection priorities while keeping provenance, uncertainty and validation boundaries explicit.
 
@@ -240,3 +240,5 @@ I'm interested in research and open-source collaboration around:
 If you're working on an adjacent problem, have a dataset worth testing, disagree with one of my methodological choices, or see a useful collaboration opportunity, feel free to open an issue in the relevant repository.
 
 **Research ideas, methodological criticism and useful counter-evidence are welcome.**
+
+[LinkedIn]([TU_LINKEDIN](https://www.linkedin.com/in/soroush-karahrodi-8672247a/)) · [ResearchGate]([TU_RESEARCHGATE](https://www.researchgate.net/profile/Soroush-Karahrodi))
