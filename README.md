@@ -241,4 +241,4 @@ If you're working on an adjacent problem, have a dataset worth testing, disagree
 
 **Research ideas, methodological criticism and useful counter-evidence are welcome.**
 
-[LinkedIn]([TU_LINKEDIN](https://www.linkedin.com/in/soroush-karahrodi-8672247a/)) · [ResearchGate]([TU_RESEARCHGATE](https://www.researchgate.net/profile/Soroush-Karahrodi))
+[LinkedIn](https://www.linkedin.com/in/soroush-karahrodi-8672247a/) · [ResearchGate](https://www.researchgate.net/profile/Soroush-Karahrodi)
