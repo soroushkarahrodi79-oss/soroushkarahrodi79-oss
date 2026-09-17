@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/profile-hero.png" width="100%" alt="Tourism data, geospatial analysis and sustainability banner">
+</p>
+
 <div align="center">
   <img src="assets/profile-hero.svg" alt="" width="100%" role="presentation">
 </div>
