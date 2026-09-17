@@ -2,125 +2,76 @@
   <img src="./assets/profile-hero.png" width="100%" alt="Tourism data, geospatial analysis and sustainability banner">
 </p>
 
-# Soroush Karahrodi
+[BANNER]
 
-**Tourism Intelligence · Geospatial Research · Decision Systems**
+Tourism Intelligence · Geospatial Research · Decision Systems
 
-I build evidence-first systems at the intersection of **tourism, geospatial analysis, climate risk and field research**.
+I build spatial decision-support systems for tourism, climate adaptation and environmental research.
 
-My work focuses on turning spatial, environmental and field data into transparent, auditable decision-support workflows — while keeping **provenance, uncertainty and claim boundaries explicit**.
-
----
-
-## Start here
-
-### [Spatial Intelligence Atlas](https://github.com/soroushkarahrodi79-oss/spatial-intelligence-atlas)
-
-An interactive map of how my main research and software systems relate across **territory, evidence and decisions**.
-
-**[Open the Atlas](https://soroushkarahrodi79-oss.github.io/spatial-intelligence-atlas/)**
-
-It connects HATI, FIRSTLOOK-MAD, SNTO, FieldOS and FAB conceptually.
-
-> These are separate systems with related research questions — not a single technically integrated platform.
+From Earth observation and urban heat to field evidence, my work explores how data can support better decisions about places — without pretending the evidence says more than it does.
 
 ---
 
-## Flagship work
+## Selected work
 
-### [SNTO — Smart Nature Tourism Observatory](https://github.com/soroushkarahrodi79-oss/snto-smart-tourism-observatory)
+### SNTO — Smart Nature Tourism Observatory
+[1 frase problema + solución]
+Dashboard · DOI · Whitepaper
 
-Protected-area decision intelligence built around Earth observation, spatial evidence and explicit provenance.
+### HATI-Madrid
+[1 frase problema + investigación]
+ResearchGate · DOI
 
-SNTO uses Sentinel-2 and official territorial data to track environmental-condition and environmental-change signals in **Parque Nacional Sierra de Guadarrama**, turning them into evidence-aware monitoring and field-inspection priorities — without claiming to measure tourism pressure or establish its causal link to environmental change — while keeping provenance, uncertainty and validation boundaries explicit.
-
-**[Live dashboard](https://snto-observatory.happyground-be027676.swedencentral.azurecontainerapps.io/)** · **[DOI](https://doi.org/10.5281/zenodo.20818269)** · **[Whitepaper](https://github.com/soroushkarahrodi79-oss/snto-smart-tourism-observatory/blob/main/WHITEPAPER_SNTO_Architecture_Blueprint.md)**
-
----
-
-### [HATI-Madrid — Heat-Aware Tourism Intelligence](https://github.com/soroushkarahrodi79-oss/heat-adaptive-tourism-madrid)
-
-A reproducible research pilot examining **heat-adaptive urban tourism opportunity screening** in central Madrid.
-
-HATI compares alternative thermal representations inside a constraint-first decision architecture, keeping thermal state, eligibility, evidence and uncertainty auditable rather than collapsing them into a single score.
-
-**[ResearchGate](https://www.researchgate.net/publication/414226835_Thermal_representation_as_a_decision_variable_in_heat-adaptive_tourism_opportunity_screening_evidence_from_a_Madrid_pilot)** · **[DOI](https://doi.org/10.5281/zenodo.22707470)**
-
-**Status:** public non-peer-reviewed preprint · not an operational or real-time tourism system.
+### FieldOS
+[1 frase utilidad]
+Live app
 
 ---
 
-### [FieldOS](https://github.com/soroushkarahrodi79-oss/fieldos)
+## Explore the ecosystem
 
-An **offline-first field research PWA** for structured evidence collection.
+### Spatial Intelligence Atlas
+A visual map connecting the research questions behind SNTO, HATI, FieldOS, FAB and FIRSTLOOK-MAD.
 
-FieldOS captures sessions, observations, GPS provenance, photos and voice notes on-device, preserves revision history, supports spatial inspection and exports portable JSON, CSV, GeoJSON and full-session backups without requiring a backend.
-
-**[Live deployment](https://fieldos-sigma.vercel.app)**
-
----
-
-### [FIRSTLOOK-MAD](https://github.com/soroushkarahrodi79-oss/firstlook-mad)
-
-A falsification-first research prototype investigating whether a distributed UAS network could improve **Time To First Reliable Picture** for wildfire response in the Community of Madrid.
-
-The project separates evidence, assumptions, simulation and decision gates explicitly.
-
-**Research/simulation only:** no drone control, emergency dispatch or operational flight claims.
+Open the Atlas →
 
 ---
 
-## Applied software
+## More projects
 
-### [Open Travel CRM](https://github.com/soroushkarahrodi79-oss/travel-agency-crm-google-sheets)
-
-An open-source CRM for small travel agencies built with Google Sheets and Apps Script.
-
-Leads, reservations, installment payments, roles and audit history — without requiring a conventional database server.
-
-**[Interactive demo](https://soroushkarahrodi79-oss.github.io/travel-agency-crm-google-sheets/)**
-
----
-
-## Research infrastructure & experiments
-
-* **[FAB — Field Atlas](https://github.com/soroushkarahrodi79-oss/fab)** — an interactive research instrument connecting territory, Earth observation, signals, provenance and decision scenarios while keeping authentic, derived and simulated evidence distinguishable.
-
-* **[Tourism Signal Radar](https://github.com/soroushkarahrodi79-oss/radar)** — a pre-build validation experiment testing whether a structured **Signal → Evidence → Decision → Action** workflow creates more defensible research decisions than unstructured signal collection.
-
-* **[SNTO Alpine](https://github.com/soroushkarahrodi79-oss/snto-alpine)** — an independent research prototype applying the SNTO approach to a second high-mountain context in Sierra Nevada without inheriting the base project's validation or release claims.
+FIRSTLOOK-MAD
+FAB
+Tourism Signal Radar
+SNTO Alpine
+Open Travel CRM
 
 ---
 
 ## How I work
 
-**Evidence before recommendation.**
+Evidence before recommendation.
 
-I try to keep four things separate:
+Observed → Derived → Simulated → Decision
 
-* what was actually observed or acquired;
-* what was derived or modelled;
-* what is still simulated or provisional;
-* what the available evidence genuinely supports deciding.
+I design systems so provenance, uncertainty and evidence limits remain visible throughout the decision process.
 
-A system saying **“there is not enough evidence to recommend this”** is sometimes a better result than producing another score.
+Sometimes the correct output is not another score, but:
 
----
-
-## Current research themes
-
-Tourism decision intelligence · Smart and sustainable destinations · Climate adaptation · Protected areas · Remote sensing · Spatial evidence · Field research systems · Reproducible decision support
+**NO EVIDENCE / ABSTAIN**
 
 ---
 
-## Toolchain
+## Focus & tools
 
-**Python · TypeScript · React · GeoPandas · PostGIS · Google Earth Engine · Sentinel-2 / Copernicus · MapLibre · Azure · GitHub Actions**
+Tourism intelligence · Geospatial analysis · Climate adaptation · Earth observation · Protected areas · Field research
+
+Python · TypeScript · React · GeoPandas · PostGIS · Google Earth Engine · Sentinel-2 · MapLibre · Azure
 
 ---
 
-## Collaboration
+## Let's collaborate
 
-I'm interested in research and open-source collaboration around **geospatial decision support, tourism intelligence, climate adaptation, protected-area management and field evidence systems**.
+I'm interested in collaborations around geospatial decision support, tourism intelligence, climate adaptation and evidence-aware research systems.
 
-If you're working on an adjacent problem, open an issue in the relevant repository and let's compare approaches.
+Research idea, dataset, methodological challenge or open-source collaboration?  
+Reach out through GitHub or LinkedIn.
