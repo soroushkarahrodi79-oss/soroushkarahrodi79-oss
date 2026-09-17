@@ -2,8 +2,6 @@
   <img src="./assets/profile-hero.png" width="100%" alt="Tourism data, geospatial analysis and sustainability banner">
 </p>
 
-[BANNER]
-
 Tourism Intelligence · Geospatial Research · Decision Systems
 
 I build spatial decision-support systems for tourism, climate adaptation and environmental research.
