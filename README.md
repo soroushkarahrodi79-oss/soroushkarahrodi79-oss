@@ -16,11 +16,23 @@
 
 I work at the intersection of **tourism, geospatial analysis, climate adaptation and environmental research**.
 
-I design research and software workflows that turn **spatial, environmental and field evidence** into transparent decision support — while keeping provenance, uncertainty, validation and the limits of the evidence visible.
+I design research and software workflows that turn **spatial, environmental and field evidence** into transparent decision support — while keeping provenance, uncertainty, validation and the limits of the evidence visible. My current public integration layer is **Tourism Intelligence Desk**, which brings HATI and SNTO into one evidence-governed decision-support interface.
 
 ---
 
 ## Selected work
+
+### [Tourism Intelligence Desk](https://soroushkarahrodi79-oss.github.io/tourism-intelligence-desk/)
+
+**Evidence-governed tourism decision support with auditable research provenance.**
+
+Tourism Intelligence Desk is the public integration layer for selected research cases. It combines **reproduced HATI-Madrid evidence** with **real Sentinel-2 and derived SNTO evidence** while keeping evidence states, claim ceilings, uncertainty and provenance explicit.
+
+The system uses deterministic guardrails rather than a free-form generative model for scientific claims. Unsupported questions return **INSUFFICIENT EVIDENCE** instead of invented causal findings or management recommendations.
+
+**[Live product](https://soroushkarahrodi79-oss.github.io/tourism-intelligence-desk/)** · **[Source](https://github.com/soroushkarahrodi79-oss/tourism-intelligence-desk)**
+
+---
 
 ### [SNTO — Smart Nature Tourism Observatory](https://github.com/soroushkarahrodi79-oss/snto-smart-tourism-observatory)
 
