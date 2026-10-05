@@ -30,7 +30,7 @@ GeoImpact CI is a deterministic geospatial regression tool for asking a differen
 
 The `v1.0.0` release compares BASE and CANDIDATE polygon GeoJSON, evaluates dependent point relationships with exact `WITHIN` semantics, and emits canonical JSON, Markdown and GeoJSON evidence with PASS/BLOCK policy outcomes. The release is qualified on Linux and Windows, includes an official Madrid positive benchmark with **2,112 assignment changes**, and a Sierra de Baza negative control with **52 unchanged relationships and zero regressions**.
 
-**[Repository](https://github.com/soroushkarahrodi79-oss/geoimpact-ci)** · **[v1.0.0 release](https://github.com/soroushkarahrodi79-oss/geoimpact-ci/releases/tag/v1.0.0)**
+**[Case study](case-studies/geoimpact-ci.md)** · **[Repository](https://github.com/soroushkarahrodi79-oss/geoimpact-ci)** · **[v1.0.0 release](https://github.com/soroushkarahrodi79-oss/geoimpact-ci/releases/tag/v1.0.0)**
 
 ---
 
