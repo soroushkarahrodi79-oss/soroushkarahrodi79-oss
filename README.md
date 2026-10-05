@@ -16,11 +16,23 @@
 
 I work at the intersection of **tourism, geospatial analysis, climate adaptation and environmental research**.
 
-I design research and software workflows that turn **spatial, environmental and field evidence** into transparent decision support — while keeping provenance, uncertainty, validation and the limits of the evidence visible. My current public integration layer is **Tourism Intelligence Desk**, which brings HATI and SNTO into one evidence-governed decision-support interface.
+I design research and software workflows that turn **spatial, environmental and field evidence** into transparent decision support — while keeping provenance, uncertainty, validation and the limits of the evidence visible. My portfolio spans tourism intelligence, Earth observation, field evidence and reproducible geospatial software.
 
 ---
 
 ## Selected work
+
+### [GeoImpact CI](https://github.com/soroushkarahrodi79-oss/geoimpact-ci)
+
+**Know the spatial blast radius before you merge.**
+
+GeoImpact CI is a deterministic geospatial regression tool for asking a different question before a spatial dataset change is merged: **which declared downstream spatial relationships would change?**
+
+The `v1.0.0` release compares BASE and CANDIDATE polygon GeoJSON, evaluates dependent point relationships with exact `WITHIN` semantics, and emits canonical JSON, Markdown and GeoJSON evidence with PASS/BLOCK policy outcomes. The release is qualified on Linux and Windows, includes an official Madrid positive benchmark with **2,112 assignment changes**, and a Sierra de Baza negative control with **52 unchanged relationships and zero regressions**.
+
+**[Repository](https://github.com/soroushkarahrodi79-oss/geoimpact-ci)** · **[v1.0.0 release](https://github.com/soroushkarahrodi79-oss/geoimpact-ci/releases/tag/v1.0.0)**
+
+---
 
 ### [Tourism Intelligence Desk](https://soroushkarahrodi79-oss.github.io/tourism-intelligence-desk/)
 
@@ -215,7 +227,7 @@ I am particularly interested in problems where **territory, environmental condit
 
 **Data & geospatial**
 
-Python · GeoPandas · PostGIS · Google Earth Engine · Sentinel-2 / Copernicus
+Python · GeoPandas · Shapely · PyProj · PostGIS · Google Earth Engine · Sentinel-2 / Copernicus
 
 **Web & interfaces**
 
