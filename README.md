@@ -28,9 +28,11 @@ I design research and software workflows that turn **spatial, environmental and 
 
 GeoImpact CI is a deterministic geospatial regression tool for asking a different question before a spatial dataset change is merged: **which declared downstream spatial relationships would change?**
 
-The `v1.0.0` release compares BASE and CANDIDATE polygon GeoJSON, evaluates dependent point relationships with exact `WITHIN` semantics, and emits canonical JSON, Markdown and GeoJSON evidence with PASS/BLOCK policy outcomes. The release is qualified on Linux and Windows, includes an official Madrid positive benchmark with **2,112 assignment changes**, and a Sierra de Baza negative control with **52 unchanged relationships and zero regressions**.
+The current **v1.2.0** release compares BASE and CANDIDATE Polygon/MultiPolygon GeoJSON, treats unchanged, modified, added and removed stable IDs explicitly, evaluates dependent Point relationships with exact `WITHIN` semantics, and emits deterministic JSON, Markdown and GeoJSON evidence with PASS/BLOCK policy outcomes. Report **V5** adds raw-byte SHA-256 provenance for the config and spatial inputs plus qualified GeoImpact/Shapely/GEOS/PyProj/PROJ engine versions, without adding local paths or timestamps.
 
-**[Case study](case-studies/geoimpact-ci.md)** · **[Repository](https://github.com/soroushkarahrodi79-oss/geoimpact-ci)** · **[v1.0.0 release](https://github.com/soroushkarahrodi79-oss/geoimpact-ci/releases/tag/v1.0.0)**
+The release is qualified with **113 tests on Linux and Windows**, retains the Madrid positive benchmark with **2,112 relationship changes**, and the Sierra de Baza negative control with **52 relationships and zero regressions**.
+
+**[Case study](case-studies/geoimpact-ci.md)** · **[Repository](https://github.com/soroushkarahrodi79-oss/geoimpact-ci)** · **[v1.2.0 release](https://github.com/soroushkarahrodi79-oss/geoimpact-ci/releases/tag/v1.2.0)**
 
 ---
 
