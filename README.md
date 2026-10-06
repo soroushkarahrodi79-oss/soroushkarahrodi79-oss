@@ -50,7 +50,7 @@ A reproducible central-Madrid research pilot comparing alternative thermal metho
 
 An offline-first field research PWA for protocol-bound observations, GPS provenance, media, revision history and portable JSON/CSV/GeoJSON backups. A first owner-attested iPhone field run is documented; broad or cross-platform validation is still pending.
 
-[Try the deployed MVP](https://soroushkarahrodi79-oss.github.io/fieldos/) · [Repository](https://github.com/soroushkarahrodi79-oss/fieldos) · [Field-run record](https://github.com/soroushkarahrodi79-oss/fieldos/blob/main/docs/FIRST_FIELD_RUN.md)
+[Try the deployed MVP](https://fieldos-sigma.vercel.app/) · [Repository](https://github.com/soroushkarahrodi79-oss/fieldos) · [Field-run record](https://github.com/soroushkarahrodi79-oss/fieldos/blob/main/docs/FIRST_FIELD_RUN.md)
 
 ## Evidence behind the work
 
