@@ -18,6 +18,12 @@ I build research software that turns spatial data (official urban records, Senti
 
 My background is tourism and territorial planning. I am currently pursuing the Máster Universitario en Planificación y Gestión de Destinos Turísticos at Universidad Complutense de Madrid, and the projects below are independently developed and at different stages: released research software, deployed research applications, an MVP, and experimental research prototypes. Each states its own status.
 
+<div align="center">
+<a href="https://github.com/soroushkarahrodi79-oss/heat-adaptive-tourism-madrid/blob/v0.1.0/outputs/publication/figures/FIG02_THERMAL_METHOD_DIVERGENCE_v0.1.png"><img src="assets/hati-fig02-thermal-method-divergence.png" width="800" alt="HATI-Madrid figure comparing thermal-method feasibility classifications across 14 outdoor assets at three timestamps. The two methods disagree in 14 of 42 asset-time observations."></a>
+</div>
+
+**HATI-Madrid — Thermal-method sensitivity.** In a single-day central Madrid pilot, the operational proxy and physically based SOLWEIG/UTCI configuration assigned different feasibility classifications to 14 of 42 asset-time observations (33.3%). This demonstrates sensitivity to method choice, not superiority or measured accuracy. Results are model-derived, not field-validated, and the pilot is not peer-reviewed. [Zenodo record (DOI)](https://doi.org/10.5281/zenodo.22707470) · [Status and claim limits](https://github.com/soroushkarahrodi79-oss/heat-adaptive-tourism-madrid/blob/main/PROJECT_STATUS.md)
+
 ## Selected research and software
 
 ### [Madrid Urban Evidence Lens](https://github.com/soroushkarahrodi79-oss/madrid-tourism-intelligence-lens)
