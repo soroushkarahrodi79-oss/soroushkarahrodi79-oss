@@ -1,99 +1,120 @@
-<p align="center">
-  <img src="./assets/profile-hero.png" width="100%" alt="Tourism intelligence and geospatial research across cities and landscapes">
-</p>
+<div align="center">
 
-<p align="center"><strong>Tourism Intelligence · Geospatial Decision Systems · Reproducible Research</strong></p>
+<h1>Soroush Karahrodi</h1>
 
-<p align="center">Building evidence-first systems for cities, destinations and protected areas.</p>
+<p><strong>Geospatial Research Developer</strong></p>
 
-I build geospatial research software and decision-support tools where tourism, territorial planning and environmental evidence meet. The work spans interactive city analysis, Earth observation, spatial regression checks and offline field research.
+<p>Spatial Intelligence · Earth Observation · Reproducible Evidence Systems</p>
 
-Each project makes its sources, transformations and limits inspectable. The aim is to turn imperfect spatial evidence into a defensible interpretation—and to show when it does not support a decision.
+<p>Urban evidence · Geometry-change testing · Sentinel-2 monitoring · Field data</p>
 
-## Flagship work
+<p><a href="https://github.com/soroushkarahrodi79-oss/madrid-tourism-intelligence-lens">Madrid Lens</a> · <a href="https://github.com/soroushkarahrodi79-oss/geoimpact-ci">GeoImpact CI</a> · <a href="https://github.com/soroushkarahrodi79-oss/heat-adaptive-tourism-madrid">HATI-Madrid</a> · <a href="https://github.com/soroushkarahrodi79-oss/snto-smart-tourism-observatory">SNTO</a> · <a href="#collaboration">Contact</a></p>
+
+</div>
+
+---
+
+I build research software that turns spatial data (official urban records, Sentinel-2 imagery, field observations) into evidence with its limits attached, to support evidence-based analysis of cities, protected areas and tourist destinations.
+
+My background is tourism and territorial planning. I am currently pursuing the Máster Universitario en Planificación y Gestión de Destinos Turísticos at Universidad Complutense de Madrid, and the projects below are independently developed and at different stages: released research software, deployed research applications, an MVP, and experimental research prototypes. Each states its own status.
+
+## Selected research and software
 
 ### [Madrid Urban Evidence Lens](https://github.com/soroushkarahrodi79-oss/madrid-tourism-intelligence-lens)
 
-**Explore what official sources document about a place in Madrid, at a spatial window you control.**
+*What do official sources say about a place in Madrid, and what can't they show?*
 
-A comparative map workspace for local evidence on urban development, tourism, mobility and bounded heat context. Tourism remains one documented domain; the broader urban-evidence direction is in development, with no production planning layer today.
+A browser map workspace for comparing two places, or two official planning ámbitos, across tourism, mobility, bounded heat context, planning development phases and buildability, and granted urban licences. An evidence drawer shows each value's source, date and limit, a fixed menu of registry-backed questions can abstain, and readings can be shared by URL and exported with geometry.
 
-[Live lens](https://soroushkarahrodi79-oss.github.io/madrid-tourism-intelligence-lens/) · [Repository](https://github.com/soroushkarahrodi79-oss/madrid-tourism-intelligence-lens) · [Scope and limits](https://github.com/soroushkarahrodi79-oss/madrid-tourism-intelligence-lens/blob/main/docs/GATE_K_URBAN_DECISION_WORKSPACE.md)
+**Status:** published research software with automated tests; latest tagged release v0.1.0, with `main` ahead. It is not a statutory planning analysis or full PGOUM coverage, and it makes no recommendations.
+
+[Live lens](https://soroushkarahrodi79-oss.github.io/madrid-tourism-intelligence-lens/) · [Claims and limitations](https://github.com/soroushkarahrodi79-oss/madrid-tourism-intelligence-lens/blob/main/docs/CLAIMS_AND_LIMITATIONS.md) · [Data provenance](https://github.com/soroushkarahrodi79-oss/madrid-tourism-intelligence-lens/blob/main/docs/DATA_PROVENANCE.md)
 
 ### [GeoImpact CI](https://github.com/soroushkarahrodi79-oss/geoimpact-ci)
 
-**Know the spatial blast radius before you merge.**
+*Which spatial relationships does a polygon edit change before you merge it?*
 
-A deterministic geospatial regression tool that checks how changed polygon geometries alter declared downstream spatial relationships, then emits reproducible evidence and a CI PASS/BLOCK result. Its stable v1 contract is intentionally narrow.
+A deterministic Python command-line tool for geometry-change regression testing. It compares BASE and CANDIDATE GeoJSON polygons, checks declared point-in-polygon relationships, and writes canonical JSON, Markdown and GeoJSON evidence with a PASS or BLOCK exit code for CI. Dependencies are pinned, inputs carry SHA-256 identities, and installs are qualified on Linux and Windows. Two real-data cases reproduce from committed scripts: Madrid census-section snapshots and a protected-area negative control.
 
-[Repository](https://github.com/soroushkarahrodi79-oss/geoimpact-ci) · [v1.2.0 release](https://github.com/soroushkarahrodi79-oss/geoimpact-ci/releases/tag/v1.2.0)
+**Status:** stable v1.2.0 with a deliberately narrow contract; no DOI.
 
-### [SNTO — Smart Nature Tourism Observatory](https://github.com/soroushkarahrodi79-oss/snto-smart-tourism-observatory)
-
-**Use satellite-derived environmental signals to direct attention toward field inspection.**
-
-For Sierra de Guadarrama, SNTO processes Sentinel-2 observations into environmental-condition and change indicators alongside official spatial context. It does not measure visitor pressure or establish tourism causation; field validation and stronger decision claims remain gated.
-
-[Live dashboard](https://snto-observatory.happyground-be027676.swedencentral.azurecontainerapps.io/) · [Repository](https://github.com/soroushkarahrodi79-oss/snto-smart-tourism-observatory) · [Zenodo record](https://doi.org/10.5281/zenodo.20818269)
+[v1.2.0 release](https://github.com/soroushkarahrodi79-oss/geoimpact-ci/releases/tag/v1.2.0) · [Madrid case](https://github.com/soroushkarahrodi79-oss/geoimpact-ci/blob/main/docs/GATE_5_REAL_WORLD_CASE.md) · [Citation file](https://github.com/soroushkarahrodi79-oss/geoimpact-ci/blob/main/CITATION.cff)
 
 ### [HATI-Madrid](https://github.com/soroushkarahrodi79-oss/heat-adaptive-tourism-madrid)
 
-**Test how thermal representation changes heat-aware tourism opportunity screening.**
+*Does the way heat is represented change which tourism opportunities survive screening?*
 
-A reproducible central-Madrid research pilot comparing alternative thermal methods in a transparent, constraint-first screening architecture. The public preprint reports a bounded, single-day pilot; it is not an operational tourism service or peer-reviewed study.
+A research pilot comparing a simple operational proxy with a physically based SOLWEIG/UTCI configuration inside one constraint-first screening design: eight pre-registered scenarios, no composite score, and an explicit no-survivor outcome.
 
-[Repository](https://github.com/soroushkarahrodi79-oss/heat-adaptive-tourism-madrid) · [Research preprint](https://www.researchgate.net/publication/414226835_Thermal_representation_as_a_decision_variable_in_heat-adaptive_tourism_opportunity_screening_evidence_from_a_Madrid_pilot) · [Zenodo DOI](https://doi.org/10.5281/zenodo.22707470)
+**Status:** a bounded, non-peer-reviewed pilot covering one day (21 August 2023) and about 3.5 km² of central Madrid, with model-derived thermal outputs and no field validation. A later extension ended in "no robust difference" and is frozen.
 
-### [FieldOS](https://github.com/soroushkarahrodi79-oss/fieldos)
+[Zenodo record (DOI)](https://doi.org/10.5281/zenodo.22707470) · [ResearchGate preprint](https://www.researchgate.net/publication/414226835_Thermal_representation_as_a_decision_variable_in_heat-adaptive_tourism_opportunity_screening_evidence_from_a_Madrid_pilot) · [Status and claim limits](https://github.com/soroushkarahrodi79-oss/heat-adaptive-tourism-madrid/blob/main/PROJECT_STATUS.md) · [Reproducibility](https://github.com/soroushkarahrodi79-oss/heat-adaptive-tourism-madrid/blob/main/REPRODUCIBILITY.md)
 
-**Capture structured field evidence offline and carry its provenance with it.**
+### [SNTO: Smart Nature Tourism Observatory](https://github.com/soroushkarahrodi79-oss/snto-smart-tourism-observatory)
 
-An offline-first field research PWA for protocol-bound observations, GPS provenance, media, revision history and portable JSON/CSV/GeoJSON backups. A first owner-attested iPhone field run is documented; broad or cross-platform validation is still pending.
+*Where should field inspection look first in a protected area?*
 
-[Try the deployed MVP](https://fieldos-sigma.vercel.app/) · [Repository](https://github.com/soroushkarahrodi79-oss/fieldos) · [Field-run record](https://github.com/soroushkarahrodi79-oss/fieldos/blob/main/docs/FIRST_FIELD_RUN.md)
+A Sentinel-2 pipeline and dashboard for Sierra de Guadarrama National Park. It derives vegetation-condition and change indicators (EHS/NDVI) from 2021–2026 observations at trail and asset footprint level, alongside official spatial data.
 
-## Evidence behind the work
+**Status:** research prototype, v2.0.0, deployed on Azure. Its ceiling is monitoring and field inspection: no visitor-pressure data, no tourism causation, field validation pending. The project's own decision brief finds current evidence mostly insufficient to prioritise, and scenario modules use labelled synthetic data. Licensed for academic use (source-available; not open source).
 
-Inspectable live systems and public repositories; tagged software releases; reproducible data pipelines with recorded provenance; CI and automated checks; archived research outputs with DOIs; and contributions reviewed in upstream open-source projects. These are different forms of evidence, with different limits.
+[Live dashboard](https://snto-observatory.happyground-be027676.swedencentral.azurecontainerapps.io/) · [Zenodo record (DOI)](https://doi.org/10.5281/zenodo.20818269) · [Decision-evidence brief](https://github.com/soroushkarahrodi79-oss/snto-smart-tourism-observatory/blob/main/docs/PNSG_DECISION_EVIDENCE_BRIEF.md)
+
+### Complementary instrument: [FieldOS](https://github.com/soroushkarahrodi79-oss/fieldos)
+
+An offline-first field-observation app with protocol-bound sessions, GPS provenance, photos and voice notes, and JSON, CSV, GeoJSON and ZIP export. It is an MVP: one owner-attested field session on a single iPhone, Android untested. [App](https://fieldos-sigma.vercel.app/) · [Field-run record](https://github.com/soroushkarahrodi79-oss/fieldos/blob/main/docs/FIRST_FIELD_RUN.md)
+
+## Research principles
+
+> **Place → Evidence → Interpretation → Decision**
+
+Evidence comes in three kinds that I keep apart: **observed** (recorded by an instrument, register or person), **derived** (computed from observations by a documented transformation) and **modelled** (the output of a model whose assumptions matter, never presented as a measurement). In my projects I document uncertainty and claim limits alongside results, and where the evidence is insufficient I treat abstaining as the correct output.
+
+## Research transparency and reproducibility
+
+| Project | Code licence | Citation and archive |
+| --- | --- | --- |
+| Madrid Lens | MIT | None yet |
+| GeoImpact CI | MIT | CITATION.cff; no DOI |
+| HATI-Madrid | None published | CITATION.cff; Zenodo DOI |
+| SNTO | Academic use, not open source | CITATION.cff; Zenodo DOI |
+| FieldOS | Apache-2.0 | None yet |
+
+CITATION.cff supplies citation metadata; a Zenodo DOI identifies an archived research record. HATI's preprint terms are set on its Zenodo record and are separate from the code, which has no licence file. Madrid Lens, GeoImpact CI, SNTO and FieldOS run CI on GitHub Actions; HATI does not. CI verifies engineering behaviour, not scientific validity, and neither a DOI nor a citation file implies correctness.
 
 ## Open-source contributions
 
-- [geemap #2887](https://github.com/gee-community/geemap/pull/2887) — **merged** test coverage for `rgb_to_hex`.
-- [pystac-client #934](https://github.com/stac-utils/pystac-client/pull/934) — **open** contribution adding a public setter for search parameters.
+- [geemap #2887](https://github.com/gee-community/geemap/pull/2887): **merged**. Adds test coverage for `rgb_to_hex`.
+- [pystac-client #934](https://github.com/stac-utils/pystac-client/pull/934): **open, not merged**. Adds `set_parameter` to `BaseSearch`, available through `ItemSearch` and `CollectionSearch`, as a public way to set request parameters the constructor does not cover.
 
-## Selected research
+## Technical focus
 
-- [Iran Soil Landscapes](https://github.com/soroushkarahrodi79-oss/iran-soil-landscape) — reproducible acquisition and processing for a national dominant-soil map, with SRTM terrain used as cartographic context rather than soil evidence.
-- [CHALUS](https://github.com/soroushkarahrodi79-oss/CHALUS) — a historical road-accessibility study stopped at **NO-GO** when route correspondence and operational-status evidence did not meet the pre-registered verification standard. Stopping before Earth-observation analysis was the scientifically correct result.
+- **Geospatial analysis and Earth observation:** Python, Shapely, PyProj, GeoPandas, Rasterio, STAC, Google Earth Engine, SOLWEIG.
+- **Research software and data engineering:** Python packaging and CLIs, PostgreSQL/PostGIS, FastAPI, Docker, Azure Container Apps.
+- **Interactive geospatial interfaces:** Leaflet, MapLibre GL, React and TypeScript, Streamlit.
+- **Testing and reproducibility:** pytest, Playwright, Vitest, GitHub Actions, CITATION.cff, Zenodo.
 
-## How I work
+## Collaboration
 
-**Place → Evidence → Interpretation → Decision**
-
-**Observed** ↓ **Derived** ↓ **Modelled / provisional** ↓ **Decision**
-
-These states are not interchangeable. Recommendations stay within the evidence ceiling; when support is insufficient, the result is **abstain**. Evidence before recommendation.
-
-## Toolchain
-
-**Geospatial & data:** Python · GeoPandas · Shapely · PyProj · PostGIS · Google Earth Engine · Sentinel-2<br>
-**Interfaces:** TypeScript · React · Leaflet · MapLibre<br>
-**Engineering:** Git · GitHub Actions · reproducible workflows · Azure where the project requires it
-
-<details>
-<summary>Research archive & experiments</summary>
-
-- [Tourism Intelligence Desk](https://github.com/soroushkarahrodi79-oss/tourism-intelligence-desk) — integration prototype presenting bounded HATI and SNTO evidence; it does not replace either research source.
-- [Spatial Intelligence Atlas](https://github.com/soroushkarahrodi79-oss/spatial-intelligence-atlas) — static explanatory map of selected research cases, not an integrated platform.
-- [FIRSTLOOK-MAD](https://github.com/soroushkarahrodi79-oss/firstlook-mad) — simulation-only, falsification-first UAS wildfire-response research prototype.
-- [FAB — Field Atlas](https://github.com/soroushkarahrodi79-oss/fab) — research instrument with mixed authentic, derived and simulated evidence; its real Sentinel-2 data seam is not wired.
-- [Tourism Signal Radar](https://github.com/soroushkarahrodi79-oss/radar) — validation record; standalone build was not authorized.
-- [SNTO Alpine](https://github.com/soroushkarahrodi79-oss/snto-alpine) — derived Sierra Nevada prototype; it does not inherit the base SNTO project's validation or DOI.
-- [Kelar](https://github.com/soroushkarahrodi79-oss/Kelar) — inception and bounded retrieval-pilot records; formal evidence acquisition and case analysis are not authorized or complete.
-- [JOB](https://github.com/soroushkarahrodi79-oss/JOB) — flexible-work marketplace prototype with synthetic data and simulated adapters.
-
-</details>
-
-## Contact
+I welcome conversations about research collaboration, geospatial research software, spatial data quality, Earth observation, and evidence-based urban and tourism analysis. Critical review of my methods and claim limits is especially useful.
 
 [LinkedIn](https://www.linkedin.com/in/soroush-karahrodi-8672247a/) · [ResearchGate](https://www.researchgate.net/profile/Soroush-Karahrodi) · [GitHub](https://github.com/soroushkarahrodi79-oss)
+
+## Research archive
+
+- [Iran Soil Landscapes](https://github.com/soroushkarahrodi79-oss/iran-soil-landscape): reproducible dominant soil-group mapping of Iran from HWSD v2.01 with checksummed provenance; terrain is visual context only, and it is not a field-validated soil survey.
+- [CHALUS](https://github.com/soroushkarahrodi79-oss/CHALUS): a historical road-accessibility pilot for western Mazandaran, **closed as NO-GO** because the pre-registered verification standard was not met. It stopped before any Earth-observation analysis and makes no claims about tourist delay or demand.
+
+<details>
+<summary>Other prototypes and experiments</summary>
+
+- [Tourism Intelligence Desk](https://github.com/soroushkarahrodi79-oss/tourism-intelligence-desk): integration prototype presenting bounded HATI and SNTO evidence.
+- [Spatial Intelligence Atlas](https://github.com/soroushkarahrodi79-oss/spatial-intelligence-atlas): static explanatory map of selected research cases, not an integrated platform.
+- [FIRSTLOOK-MAD](https://github.com/soroushkarahrodi79-oss/firstlook-mad): simulation-only UAS wildfire-response research prototype.
+- [FAB (Field Atlas)](https://github.com/soroushkarahrodi79-oss/fab): mixed authentic, derived and simulated evidence; its real Sentinel-2 seam is not wired.
+- [Tourism Signal Radar](https://github.com/soroushkarahrodi79-oss/radar): validation record; no standalone build authorised.
+- [SNTO Alpine](https://github.com/soroushkarahrodi79-oss/snto-alpine): derived Sierra Nevada prototype; it does not inherit SNTO's validation or DOI.
+- [Kelar](https://github.com/soroushkarahrodi79-oss/Kelar): inception and bounded retrieval-pilot records; case analysis not authorised.
+- [JOB](https://github.com/soroushkarahrodi79-oss/JOB): flexible-work marketplace prototype with synthetic data.
+
+</details>
