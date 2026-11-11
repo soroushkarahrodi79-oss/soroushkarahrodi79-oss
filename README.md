@@ -11,6 +11,8 @@
 
 <p><sub>📍 Madrid, Spain &nbsp;·&nbsp; 🎓 Máster en Planificación y Gestión de Destinos Turísticos, Universidad Complutense de Madrid</sub></p>
 
+<p><sub>🇪🇸 <a href="https://github.com/soroushkarahrodi79-oss/soroushkarahrodi79-oss/blob/main/README.es.md">Leer en español</a></sub></p>
+
 </div>
 
 I build research software that turns spatial data (official urban records, Sentinel-2 imagery, field observations) into evidence with its limits attached, to support evidence-based analysis of cities, protected areas and tourist destinations.
