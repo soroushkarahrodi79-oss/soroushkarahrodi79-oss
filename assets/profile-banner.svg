@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" role="img" aria-labelledby="b-title b-desc">
+  <title id="b-title">Soroush Karahrodi, Geospatial Research Developer</title>
+  <desc id="b-desc">Banner with topographic contour lines. Soroush Karahrodi, Geospatial Research Developer: spatial intelligence, Earth observation and reproducible evidence systems for tourism and territorial planning.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#12263a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2dd4bf"/>
+      <stop offset="1" stop-color="#60a5fa"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="280" rx="14" fill="url(#bg)"/>
+  <g fill="none" stroke="#5eead4" stroke-linecap="round">
+    <path opacity="0.10" stroke-width="1.2" d="M -20 235 C 120 205, 220 255, 340 225 S 560 175, 700 215 S 940 260, 1080 220 S 1220 185, 1260 215"/>
+    <path opacity="0.14" stroke-width="1.2" d="M -20 205 C 140 170, 260 225, 380 190 S 580 135, 720 178 S 920 230, 1060 182 S 1220 150, 1260 178"/>
+    <path opacity="0.18" stroke-width="1.2" d="M -20 172 C 160 135, 280 190, 400 152 S 600 98, 760 140 S 980 192, 1120 142 S 1230 112, 1260 140"/>
+    <path opacity="0.22" stroke-width="1.2" d="M -20 138 C 180 100, 300 155, 430 118 S 640 66, 800 106 S 1010 158, 1140 108 S 1230 80, 1260 104"/>
+    <path opacity="0.26" stroke-width="1.2" d="M -20 104 C 200 66, 320 120, 460 84 S 680 34, 840 72 S 1040 126, 1160 76 S 1230 52, 1260 72"/>
+  </g>
+  <g fill="#5eead4">
+    <circle cx="1040" cy="150" r="3.2" opacity="0.9"/>
+    <circle cx="1040" cy="150" r="9" opacity="0.18"/>
+    <circle cx="880" cy="92" r="2.4" opacity="0.6"/>
+    <circle cx="1130" cy="118" r="2.4" opacity="0.6"/>
+  </g>
+  <g font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Arial, sans-serif">
+    <text x="64" y="112" font-size="52" font-weight="700" fill="#f1f5f9" letter-spacing="0.5">Soroush Karahrodi</text>
+    <rect x="64" y="130" width="96" height="4" rx="2" fill="url(#accent)"/>
+    <text x="64" y="172" font-size="24" font-weight="600" fill="#99f6e4">Geospatial Research Developer</text>
+    <text x="64" y="206" font-size="16" fill="#cbd5e1" letter-spacing="0.4">Spatial intelligence  ·  Earth observation  ·  Reproducible evidence systems</text>
+    <text x="64" y="240" font-size="14" fill="#94a3b8" letter-spacing="0.3">Tourism &amp; territorial planning  ·  UCM Madrid  ·  Madrid, Spain</text>
+  </g>
+</svg>
