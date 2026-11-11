@@ -5,6 +5,7 @@
 <p>
 <a href="mailto:soroush.karahrodi79@gmail.com?subject=Contact%20from%20your%20GitHub%20profile"><b>✉️ Email</b></a> &nbsp;·&nbsp;
 <a href="https://www.linkedin.com/in/soroush-karahrodi-8672247a/"><b>💼 LinkedIn</b></a> &nbsp;·&nbsp;
+<a href="https://orcid.org/0009-0003-8495-4601"><b>🆔 ORCID</b></a> &nbsp;·&nbsp;
 <a href="https://www.researchgate.net/profile/Soroush-Karahrodi"><b>🔬 ResearchGate</b></a> &nbsp;·&nbsp;
 <a href="https://github.com/soroushkarahrodi79-oss?tab=repositories"><b>📂 All repositories</b></a>
 </p>
@@ -105,11 +106,11 @@ Evidence comes in three kinds that I keep apart: **observed** (recorded by an in
 | --- | --- | --- |
 | Madrid Lens | MIT | None yet |
 | GeoImpact CI | MIT | CITATION.cff; no DOI |
-| HATI-Madrid | None published | CITATION.cff; Zenodo DOI |
+| HATI-Madrid | MIT for source code only; data, manuscript and figures not covered | CITATION.cff; Zenodo DOI |
 | SNTO | Academic use, not open source | CITATION.cff; Zenodo DOI |
 | FieldOS | Apache-2.0 | None yet |
 
-CITATION.cff supplies citation metadata; a Zenodo DOI identifies an archived research record. HATI's preprint terms are set on its Zenodo record and are separate from the code, which has no licence file. Madrid Lens, GeoImpact CI, SNTO and FieldOS run CI on GitHub Actions; HATI does not. CI verifies engineering behaviour, not scientific validity, and neither a DOI nor a citation file implies correctness.
+CITATION.cff supplies citation metadata; a Zenodo DOI identifies an archived research record. HATI's preprint terms are set on its Zenodo record and are separate from the code licence. Madrid Lens, GeoImpact CI, SNTO and FieldOS run CI on GitHub Actions; HATI does not. CI verifies engineering behaviour, not scientific validity, and neither a DOI nor a citation file implies correctness.
 
 ## 🤝 Open-source contributions
 
@@ -134,6 +135,7 @@ I welcome conversations about research collaboration, geospatial research softwa
 | ✉️ **Email** | Research collaboration, questions about a project, supervision or review requests | [soroush.karahrodi79@gmail.com](mailto:soroush.karahrodi79@gmail.com?subject=Contact%20from%20your%20GitHub%20profile) |
 | 💼 **LinkedIn** | Collaboration, professional enquiries, quick messages | [soroush-karahrodi](https://www.linkedin.com/in/soroush-karahrodi-8672247a/) |
 | 🔬 **ResearchGate** | Research questions, the HATI-Madrid preprint | [Soroush-Karahrodi](https://www.researchgate.net/profile/Soroush-Karahrodi) |
+| 🆔 **ORCID** | Persistent researcher identifier | [0009-0003-8495-4601](https://orcid.org/0009-0003-8495-4601) |
 | 📂 **GitHub** | Code, issues on a specific repository | [soroushkarahrodi79-oss](https://github.com/soroushkarahrodi79-oss) |
 
 ## 🗄️ Research archive
