@@ -2,17 +2,11 @@
 
 <img src="assets/profile-banner.svg" width="100%" alt="Soroush Karahrodi, Geospatial Research Developer. Inteligencia espacial, observación de la Tierra y sistemas de evidencia reproducibles.">
 
-<p>
-<a href="mailto:soroush.karahrodi79@gmail.com?subject=Contacto%20desde%20tu%20perfil%20de%20GitHub"><b>✉️ Email</b></a> &nbsp;·&nbsp;
-<a href="https://www.linkedin.com/in/soroush-karahrodi-8672247a/"><b>💼 LinkedIn</b></a> &nbsp;·&nbsp;
-<a href="https://orcid.org/0009-0003-8495-4601"><b>🆔 ORCID</b></a> &nbsp;·&nbsp;
-<a href="https://www.researchgate.net/profile/Soroush-Karahrodi"><b>🔬 ResearchGate</b></a> &nbsp;·&nbsp;
-<a href="https://github.com/soroushkarahrodi79-oss?tab=repositories"><b>📂 Todos los repositorios</b></a>
-</p>
+<p><a href="mailto:soroush.karahrodi79@gmail.com?subject=Contacto%20desde%20tu%20perfil%20de%20GitHub">Email</a> &nbsp;·&nbsp; <a href="https://orcid.org/0009-0003-8495-4601">ORCID</a> &nbsp;·&nbsp; <a href="https://www.linkedin.com/in/soroush-karahrodi-8672247a/">LinkedIn</a> &nbsp;·&nbsp; <a href="https://www.researchgate.net/profile/Soroush-Karahrodi">ResearchGate</a> &nbsp;·&nbsp; <a href="https://github.com/soroushkarahrodi79-oss?tab=repositories">Repositorios</a></p>
 
-<p><sub>📍 Madrid, España &nbsp;·&nbsp; 🎓 Máster Universitario en Planificación y Gestión de Destinos Turísticos, Universidad Complutense de Madrid</sub></p>
+<p><sub>Madrid, España &nbsp;·&nbsp; Máster Universitario en Planificación y Gestión de Destinos Turísticos (en curso), Universidad Complutense de Madrid</sub></p>
 
-<p><sub>🇬🇧 <a href="https://github.com/soroushkarahrodi79-oss/soroushkarahrodi79-oss#readme">Read in English</a></sub></p>
+<p><sub><a href="https://github.com/soroushkarahrodi79-oss/soroushkarahrodi79-oss#readme">English</a> &nbsp;·&nbsp; Español</sub></p>
 
 </div>
 
@@ -20,17 +14,16 @@ Desarrollo software de investigación que convierte datos espaciales (registros 
 
 Mi formación es en turismo y planificación territorial. Los proyectos siguientes son de desarrollo independiente y están en fases distintas: software de investigación publicado, aplicaciones de investigación desplegadas, un MVP y prototipos de investigación experimentales. Cada uno indica su propio estado.
 
-## 🧭 Por dónde empezar
+## Navegar según el objetivo
 
-| Si eres… | Empieza aquí | Qué encontrarás |
+| Quiero… | Ir a | Qué encontrarás |
 | --- | --- | --- |
-| **Investigador/a o revisor/a** | [HATI-Madrid en Zenodo](https://doi.org/10.5281/zenodo.22707470) · [Estado y límites de las afirmaciones](https://github.com/soroushkarahrodi79-oss/heat-adaptive-tourism-madrid/blob/main/PROJECT_STATUS.md) | Un piloto archivado y citable, con lo que muestra y lo que no muestra explicado. |
-| **Profesor/a o tutor/a** | [Madrid Lens: afirmaciones y limitaciones](https://github.com/soroushkarahrodi79-oss/madrid-tourism-intelligence-lens/blob/main/docs/CLAIMS_AND_LIMITATIONS.md) · [Informe de evidencia para la decisión de SNTO](https://github.com/soroushkarahrodi79-oss/snto-smart-tourism-observatory/blob/main/docs/PNSG_DECISION_EVIDENCE_BRIEF.md) | Cómo acoto las afirmaciones, documento la procedencia de los datos e informo cuando la evidencia es insuficiente. |
-| **Estudiante** | [Lens en vivo](https://soroushkarahrodi79-oss.github.io/madrid-tourism-intelligence-lens/) · [Panel en vivo](https://snto-observatory.happyground-be027676.swedencentral.azurecontainerapps.io/) | Dos aplicaciones que puedes abrir y explorar sin instalar nada. |
-| **Desarrollador/a** | [GeoImpact CI v1.2.0](https://github.com/soroushkarahrodi79-oss/geoimpact-ci/releases/tag/v1.2.0) · [Guía de reproducibilidad](https://github.com/soroushkarahrodi79-oss/heat-adaptive-tourism-madrid/blob/main/REPRODUCIBILITY.md) | Una herramienta de línea de comandos con dependencias fijadas y probada, y pipelines de investigación reproducibles. |
-| **Quieres colaborar** | [Escríbeme](mailto:soroush.karahrodi79@gmail.com?subject=Contacto%20desde%20tu%20perfil%20de%20GitHub) | El email es lo mejor para consultas de investigación o colaboración; LinkedIn sirve para mensajes rápidos. |
+| Comprobar la evidencia y sus límites | [HATI-Madrid en Zenodo](https://doi.org/10.5281/zenodo.22707470) · [Estado y límites de las afirmaciones](https://github.com/soroushkarahrodi79-oss/heat-adaptive-tourism-madrid/blob/main/PROJECT_STATUS.md) | Un piloto archivado y citable, con lo que muestra y lo que no muestra explicado. |
+| Ver cómo acoto las afirmaciones | [Madrid Lens: afirmaciones y limitaciones](https://github.com/soroushkarahrodi79-oss/madrid-tourism-intelligence-lens/blob/main/docs/CLAIMS_AND_LIMITATIONS.md) · [Informe de evidencia para la decisión de SNTO](https://github.com/soroushkarahrodi79-oss/snto-smart-tourism-observatory/blob/main/docs/PNSG_DECISION_EVIDENCE_BRIEF.md) | Cómo acoto las afirmaciones, documento la procedencia de los datos e informo cuando la evidencia es insuficiente. |
+| Probar una aplicación sin instalar nada | [Lens en vivo](https://soroushkarahrodi79-oss.github.io/madrid-tourism-intelligence-lens/) · [Panel en vivo](https://snto-observatory.happyground-be027676.swedencentral.azurecontainerapps.io/) | Dos aplicaciones de investigación desplegadas. |
+| Reproducir o reutilizar el software | [GeoImpact CI v1.2.0](https://github.com/soroushkarahrodi79-oss/geoimpact-ci/releases/tag/v1.2.0) · [Guía de reproducibilidad de HATI](https://github.com/soroushkarahrodi79-oss/heat-adaptive-tourism-madrid/blob/main/REPRODUCIBILITY.md) | Una herramienta de línea de comandos con dependencias fijadas y probada, y pipelines de investigación reproducibles. |
 
-## 📌 Evidencia destacada
+## Evidencia destacada
 
 <div align="center">
 <a href="https://github.com/soroushkarahrodi79-oss/heat-adaptive-tourism-madrid/blob/v0.1.0/outputs/publication/figures/FIG02_THERMAL_METHOD_DIVERGENCE_v0.1.png"><img src="assets/hati-fig02-thermal-method-divergence.png" width="800" alt="Figura de HATI-Madrid que compara las clasificaciones de viabilidad según el método térmico en 14 activos al aire libre y tres momentos. Los dos métodos discrepan en 14 de 42 observaciones activo-momento."></a>
@@ -38,17 +31,17 @@ Mi formación es en turismo y planificación territorial. Los proyectos siguient
 
 **HATI-Madrid — Sensibilidad al método térmico.** En un piloto de un solo día en el centro de Madrid, el proxy operativo y la configuración físicamente basada SOLWEIG/UTCI asignaron clasificaciones de viabilidad distintas en 14 de 42 observaciones activo-momento (33,3 %). Esto demuestra sensibilidad a la elección del método, no superioridad ni precisión medida. Los resultados son derivados de modelo, no validados en campo, y el piloto no ha sido revisado por pares. [Registro en Zenodo (DOI)](https://doi.org/10.5281/zenodo.22707470) · [Estado y límites de las afirmaciones](https://github.com/soroushkarahrodi79-oss/heat-adaptive-tourism-madrid/blob/main/PROJECT_STATUS.md)
 
-## 🗺️ Proyectos de un vistazo
+## Proyectos de un vistazo
 
-| Proyecto | Pregunta que plantea | Fase | Abrir |
-| --- | --- | --- | --- |
-| **Madrid Urban Evidence Lens** | ¿Qué dicen las fuentes oficiales sobre un lugar de Madrid y qué no pueden mostrar? | 🟢 Software de investigación publicado, v0.1.0 | [En vivo](https://soroushkarahrodi79-oss.github.io/madrid-tourism-intelligence-lens/) · [Repo](https://github.com/soroushkarahrodi79-oss/madrid-tourism-intelligence-lens) |
-| **GeoImpact CI** | ¿Qué relaciones espaciales cambia la edición de un polígono antes de fusionarla? | 🟢 Versión estable, v1.2.0 | [Release](https://github.com/soroushkarahrodi79-oss/geoimpact-ci/releases/tag/v1.2.0) · [Repo](https://github.com/soroushkarahrodi79-oss/geoimpact-ci) |
-| **HATI-Madrid** | ¿Cambia la forma de representar el calor qué oportunidades turísticas superan el cribado? | 🔵 Piloto acotado, archivado (DOI) | [Zenodo](https://doi.org/10.5281/zenodo.22707470) · [Repo](https://github.com/soroushkarahrodi79-oss/heat-adaptive-tourism-madrid) |
-| **SNTO** | ¿Dónde debería mirar primero la inspección de campo en un espacio protegido? | 🟠 Prototipo de investigación, v2.0.0, desplegado | [En vivo](https://snto-observatory.happyground-be027676.swedencentral.azurecontainerapps.io/) · [Repo](https://github.com/soroushkarahrodi79-oss/snto-smart-tourism-observatory) |
-| **FieldOS** | ¿Cómo registrar observaciones de campo sin conexión y con procedencia? | 🟡 MVP, una sesión de campo | [App](https://fieldos-sigma.vercel.app/) · [Repo](https://github.com/soroushkarahrodi79-oss/fieldos) |
+| Proyecto | Fase | Abrir |
+| --- | --- | --- |
+| **Madrid Urban Evidence Lens** | Software de investigación publicado · v0.1.0 | [En vivo](https://soroushkarahrodi79-oss.github.io/madrid-tourism-intelligence-lens/) · [Repositorio](https://github.com/soroushkarahrodi79-oss/madrid-tourism-intelligence-lens) |
+| **GeoImpact CI** | Versión estable · v1.2.0 | [Release](https://github.com/soroushkarahrodi79-oss/geoimpact-ci/releases/tag/v1.2.0) · [Repositorio](https://github.com/soroushkarahrodi79-oss/geoimpact-ci) |
+| **HATI-Madrid** | Piloto acotado · archivado (DOI) | [Zenodo](https://doi.org/10.5281/zenodo.22707470) · [Repositorio](https://github.com/soroushkarahrodi79-oss/heat-adaptive-tourism-madrid) |
+| **SNTO** | Prototipo de investigación · v2.0.0 · desplegado | [En vivo](https://snto-observatory.happyground-be027676.swedencentral.azurecontainerapps.io/) · [Repositorio](https://github.com/soroushkarahrodi79-oss/snto-smart-tourism-observatory) |
+| **FieldOS** | MVP · una sesión de campo | [App](https://fieldos-sigma.vercel.app/) · [Repositorio](https://github.com/soroushkarahrodi79-oss/fieldos) |
 
-## 🔍 Investigación y software seleccionados
+## Investigación y software seleccionados
 
 ### [Madrid Urban Evidence Lens](https://github.com/soroushkarahrodi79-oss/madrid-tourism-intelligence-lens)
 
@@ -94,13 +87,13 @@ Un pipeline Sentinel-2 y un panel para el Parque Nacional de la Sierra de Guadar
 
 Una app de observación de campo que funciona primero sin conexión, con sesiones ligadas a un protocolo, procedencia GPS, fotos y notas de voz, y exportación a JSON, CSV, GeoJSON y ZIP. Es un MVP: una sesión de campo atestiguada por el propietario en un único iPhone; Android sin probar. [App](https://fieldos-sigma.vercel.app/) · [Registro de la sesión de campo](https://github.com/soroushkarahrodi79-oss/fieldos/blob/main/docs/FIRST_FIELD_RUN.md)
 
-## 🧪 Principios de investigación
+## Principios de investigación
 
 > **Lugar → Evidencia → Interpretación → Decisión**
 
 Distingo tres tipos de evidencia: **observada** (registrada por un instrumento, un registro o una persona), **derivada** (calculada a partir de observaciones mediante una transformación documentada) y **modelada** (resultado de un modelo cuyos supuestos importan, nunca presentada como una medición). En mis proyectos documento la incertidumbre y los límites de las afirmaciones junto a los resultados, y cuando la evidencia es insuficiente considero que abstenerse es la salida correcta.
 
-## 📚 Transparencia y reproducibilidad de la investigación
+## Transparencia y reproducibilidad de la investigación
 
 | Proyecto | Licencia del código | Citación y archivo |
 | --- | --- | --- |
@@ -112,12 +105,12 @@ Distingo tres tipos de evidencia: **observada** (registrada por un instrumento, 
 
 CITATION.cff aporta los metadatos para citar; un DOI de Zenodo identifica un registro de investigación archivado. El preprint de HATI tiene licencia CC BY 4.0 en su registro de Zenodo, independiente de la licencia MIT del código. Madrid Lens, GeoImpact CI, SNTO y FieldOS ejecutan CI en GitHub Actions; HATI no. La CI verifica el comportamiento de ingeniería, no la validez científica, y ni un DOI ni un archivo de citación implican corrección.
 
-## 🤝 Contribuciones de código abierto
+## Contribuciones de código abierto
 
 - [geemap #2887](https://github.com/gee-community/geemap/pull/2887): **fusionada**. Añade cobertura de pruebas para `rgb_to_hex`.
 - [pystac-client #934](https://github.com/stac-utils/pystac-client/pull/934): **abierta, no fusionada**. Añade `set_parameter` a `BaseSearch`, disponible mediante `ItemSearch` y `CollectionSearch`, como vía pública para fijar parámetros de petición que el constructor no cubre.
 
-## 🛠️ Enfoque técnico
+## Enfoque técnico
 
 | Área | Herramientas |
 | --- | --- |
@@ -126,19 +119,19 @@ CITATION.cff aporta los metadatos para citar; un DOI de Zenodo identifica un reg
 | **Interfaces geoespaciales interactivas** | Leaflet, MapLibre GL, React y TypeScript, Streamlit |
 | **Pruebas y reproducibilidad** | pytest, Playwright, Vitest, GitHub Actions, CITATION.cff, Zenodo |
 
-## 📬 Contacto y colaboración
+## Contacto y colaboración
 
 Me interesan las conversaciones sobre colaboración en investigación, software de investigación geoespacial, calidad de datos espaciales, observación de la Tierra y análisis urbano y turístico basado en evidencia. La revisión crítica de mis métodos y de los límites de mis afirmaciones es especialmente útil.
 
 | Canal | Ideal para | Enlace |
 | --- | --- | --- |
-| ✉️ **Email** | Colaboración en investigación, preguntas sobre un proyecto, solicitudes de tutoría o revisión | [soroush.karahrodi79@gmail.com](mailto:soroush.karahrodi79@gmail.com?subject=Contacto%20desde%20tu%20perfil%20de%20GitHub) |
-| 💼 **LinkedIn** | Colaboración, consultas profesionales, mensajes rápidos | [soroush-karahrodi](https://www.linkedin.com/in/soroush-karahrodi-8672247a/) |
-| 🔬 **ResearchGate** | Preguntas de investigación, el preprint de HATI-Madrid | [Soroush-Karahrodi](https://www.researchgate.net/profile/Soroush-Karahrodi) |
-| 🆔 **ORCID** | Identificador persistente de investigador | [0009-0003-8495-4601](https://orcid.org/0009-0003-8495-4601) |
-| 📂 **GitHub** | Código, incidencias sobre un repositorio concreto | [soroushkarahrodi79-oss](https://github.com/soroushkarahrodi79-oss) |
+| **Email** | Colaboración en investigación, preguntas sobre un proyecto, solicitudes de tutoría o revisión | [soroush.karahrodi79@gmail.com](mailto:soroush.karahrodi79@gmail.com?subject=Contacto%20desde%20tu%20perfil%20de%20GitHub) |
+| **LinkedIn** | Colaboración, consultas profesionales, mensajes rápidos | [soroush-karahrodi](https://www.linkedin.com/in/soroush-karahrodi-8672247a/) |
+| **ResearchGate** | Preguntas de investigación, el preprint de HATI-Madrid | [Soroush-Karahrodi](https://www.researchgate.net/profile/Soroush-Karahrodi) |
+| **ORCID** | Identificador persistente de investigador | [0009-0003-8495-4601](https://orcid.org/0009-0003-8495-4601) |
+| **GitHub** | Código, incidencias sobre un repositorio concreto | [soroushkarahrodi79-oss](https://github.com/soroushkarahrodi79-oss) |
 
-## 🗄️ Archivo de investigación
+## Archivo de investigación
 
 - [Iran Soil Landscapes](https://github.com/soroushkarahrodi79-oss/iran-soil-landscape): cartografía reproducible del grupo de suelo dominante de Irán a partir de HWSD v2.01, con procedencia verificada por sumas de comprobación; el relieve es solo contexto visual y no es un inventario de suelos validado en campo.
 - [CHALUS](https://github.com/soroushkarahrodi79-oss/CHALUS): un piloto histórico de accesibilidad viaria para el oeste de Mazandarán, **cerrado como NO-GO** porque no se cumplió el estándar de verificación preregistrado. Se detuvo antes de cualquier análisis de observación de la Tierra y no hace afirmaciones sobre demora ni demanda turística.
