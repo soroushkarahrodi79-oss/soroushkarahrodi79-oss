@@ -3,6 +3,7 @@
 <img src="assets/profile-banner.svg" width="100%" alt="Soroush Karahrodi, Geospatial Research Developer. Spatial intelligence, Earth observation and reproducible evidence systems.">
 
 <p>
+<a href="mailto:soroush.karahrodi79@gmail.com?subject=Contact%20from%20your%20GitHub%20profile"><b>✉️ Email</b></a> &nbsp;·&nbsp;
 <a href="https://www.linkedin.com/in/soroush-karahrodi-8672247a/"><b>💼 LinkedIn</b></a> &nbsp;·&nbsp;
 <a href="https://www.researchgate.net/profile/Soroush-Karahrodi"><b>🔬 ResearchGate</b></a> &nbsp;·&nbsp;
 <a href="https://github.com/soroushkarahrodi79-oss?tab=repositories"><b>📂 All repositories</b></a>
@@ -24,7 +25,7 @@ My background is tourism and territorial planning. The projects below are indepe
 | **A professor or supervisor** | [Madrid Lens: claims and limitations](https://github.com/soroushkarahrodi79-oss/madrid-tourism-intelligence-lens/blob/main/docs/CLAIMS_AND_LIMITATIONS.md) · [SNTO decision-evidence brief](https://github.com/soroushkarahrodi79-oss/snto-smart-tourism-observatory/blob/main/docs/PNSG_DECISION_EVIDENCE_BRIEF.md) | How I scope claims, document data provenance and report insufficient evidence. |
 | **A student** | [Live lens](https://soroushkarahrodi79-oss.github.io/madrid-tourism-intelligence-lens/) · [Live dashboard](https://snto-observatory.happyground-be027676.swedencentral.azurecontainerapps.io/) | Two applications you can open and explore without installing anything. |
 | **A developer** | [GeoImpact CI v1.2.0](https://github.com/soroushkarahrodi79-oss/geoimpact-ci/releases/tag/v1.2.0) · [Reproducibility guide](https://github.com/soroushkarahrodi79-oss/heat-adaptive-tourism-madrid/blob/main/REPRODUCIBILITY.md) | A pinned, tested command-line tool and reproducible research pipelines. |
-| **Looking to collaborate** | [Contact](https://www.linkedin.com/in/soroush-karahrodi-8672247a/) | LinkedIn and ResearchGate are the fastest ways to reach me. |
+| **Looking to collaborate** | [Email me](mailto:soroush.karahrodi79@gmail.com?subject=Contact%20from%20your%20GitHub%20profile) | Email is best for research or collaboration enquiries; LinkedIn works for quick messages. |
 
 ## 📌 Featured evidence
 
@@ -128,6 +129,7 @@ I welcome conversations about research collaboration, geospatial research softwa
 
 | Channel | Best for | Link |
 | --- | --- | --- |
+| ✉️ **Email** | Research collaboration, questions about a project, supervision or review requests | [soroush.karahrodi79@gmail.com](mailto:soroush.karahrodi79@gmail.com?subject=Contact%20from%20your%20GitHub%20profile) |
 | 💼 **LinkedIn** | Collaboration, professional enquiries, quick messages | [soroush-karahrodi](https://www.linkedin.com/in/soroush-karahrodi-8672247a/) |
 | 🔬 **ResearchGate** | Research questions, the HATI-Madrid preprint | [Soroush-Karahrodi](https://www.researchgate.net/profile/Soroush-Karahrodi) |
 | 📂 **GitHub** | Code, issues on a specific repository | [soroushkarahrodi79-oss](https://github.com/soroushkarahrodi79-oss) |
