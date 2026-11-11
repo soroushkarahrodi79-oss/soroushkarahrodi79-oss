@@ -110,7 +110,7 @@ Distingo tres tipos de evidencia: **observada** (registrada por un instrumento, 
 | SNTO | Uso académico, no es código abierto | CITATION.cff; DOI de Zenodo |
 | FieldOS | Apache-2.0 | Todavía no |
 
-CITATION.cff aporta los metadatos para citar; un DOI de Zenodo identifica un registro de investigación archivado. Las condiciones del preprint de HATI se fijan en su registro de Zenodo y son independientes de la licencia del código. Madrid Lens, GeoImpact CI, SNTO y FieldOS ejecutan CI en GitHub Actions; HATI no. La CI verifica el comportamiento de ingeniería, no la validez científica, y ni un DOI ni un archivo de citación implican corrección.
+CITATION.cff aporta los metadatos para citar; un DOI de Zenodo identifica un registro de investigación archivado. El preprint de HATI tiene licencia CC BY 4.0 en su registro de Zenodo, independiente de la licencia MIT del código. Madrid Lens, GeoImpact CI, SNTO y FieldOS ejecutan CI en GitHub Actions; HATI no. La CI verifica el comportamiento de ingeniería, no la validez científica, y ni un DOI ni un archivo de citación implican corrección.
 
 ## 🤝 Contribuciones de código abierto
 

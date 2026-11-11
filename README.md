@@ -110,7 +110,7 @@ Evidence comes in three kinds that I keep apart: **observed** (recorded by an in
 | SNTO | Academic use, not open source | CITATION.cff; Zenodo DOI |
 | FieldOS | Apache-2.0 | None yet |
 
-CITATION.cff supplies citation metadata; a Zenodo DOI identifies an archived research record. HATI's preprint terms are set on its Zenodo record and are separate from the code licence. Madrid Lens, GeoImpact CI, SNTO and FieldOS run CI on GitHub Actions; HATI does not. CI verifies engineering behaviour, not scientific validity, and neither a DOI nor a citation file implies correctness.
+CITATION.cff supplies citation metadata; a Zenodo DOI identifies an archived research record. HATI's preprint is licensed CC BY 4.0 on its Zenodo record, separate from the MIT code licence. Madrid Lens, GeoImpact CI, SNTO and FieldOS run CI on GitHub Actions; HATI does not. CI verifies engineering behaviour, not scientific validity, and neither a DOI nor a citation file implies correctness.
 
 ## 🤝 Open-source contributions
 
