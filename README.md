@@ -6,7 +6,7 @@
 
 <sub>Madrid, Spain · MSc in Tourism Destination Planning & Management, Universidad Complutense de Madrid (in progress)</sub>
 
-<img src="assets/geospatial-evidence.gif" alt="Animated topographic contours and a spatial network with moving signals" width="100%">
+<img src="assets/earth-8bit.gif" alt="8-bit pixel-art animation of the Earth rotating in space" width="718">
 
 [LinkedIn](https://www.linkedin.com/in/soroush-karahrodi-8672247a/) · [ORCID](https://orcid.org/0009-0003-8495-4601) · [ResearchGate](https://www.researchgate.net/profile/Soroush-Karahrodi) · [Hugging Face Lab](https://huggingface.co/spaces/soroushkararodi/sk-spatial-intelligence-lab) · [Email](mailto:soroush.karahrodi79@gmail.com)
 
