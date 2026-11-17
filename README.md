@@ -25,11 +25,14 @@ I build **reproducible geospatial research software** that turns official record
 | Project | Focus | Explore |
 | --- | --- | --- |
 | **Madrid Urban Evidence Lens** | Interactive mapping of official Madrid data, with provenance and limits on interpretation. | [Live map](https://soroushkarahrodi79-oss.github.io/madrid-tourism-intelligence-lens/) · [Code](https://github.com/soroushkarahrodi79-oss/madrid-tourism-intelligence-lens) |
-| **SK Spatial Intelligence Lab** | Evidence-first geospatial tools, a read-only Madrid Evidence MCP prototype and exploratory evaluations. | [Public Lab](https://huggingface.co/spaces/soroushkararodi/sk-spatial-intelligence-lab) · [Code](https://github.com/soroushkarahrodi79-oss/sk-spatial-intelligence-lab) |
+| **SK Spatial Intelligence Lab** | Read-only Madrid Evidence MCP, local investigation interface and reproducible, exploratory agent evaluations. | [Public showcase](https://huggingface.co/spaces/soroushkararodi/sk-spatial-intelligence-lab) · [Code](https://github.com/soroushkarahrodi79-oss/sk-spatial-intelligence-lab) |
 | **HATI-Madrid** | Bounded heat-adaptive tourism research pilot comparing operational and model-based thermal screening. | [Zenodo DOI](https://doi.org/10.5281/zenodo.22707470) · [Code](https://github.com/soroushkarahrodi79-oss/heat-adaptive-tourism-madrid) |
 | **SNTO** | Sentinel-2-based nature-tourism monitoring prototype for Sierra de Guadarrama. | [Research record](https://doi.org/10.5281/zenodo.20818269) · [Code](https://github.com/soroushkarahrodi79-oss/snto-smart-tourism-observatory) |
+| **GeoImpact CI** | Released deterministic spatial regression checks for geometry changes (v1.2.0). | [Release](https://github.com/soroushkarahrodi79-oss/geoimpact-ci/releases/tag/v1.2.0) · [Code](https://github.com/soroushkarahrodi79-oss/geoimpact-ci) |
 
-Also exploring **[GeoImpact CI](https://github.com/soroushkarahrodi79-oss/geoimpact-ci)** (spatial regression testing) and **[FieldOS](https://github.com/soroushkarahrodi79-oss/fieldos)** (structured field observations).
+**Recent SK LAB result:** [Madrid Evidence MCP Stage 2](https://github.com/soroushkarahrodi79-oss/sk-spatial-intelligence-lab/blob/main/mcp/madrid-evidence/eval/results-stage2/informe-stage2.es.md) is a merged, reproducible **single-arm exploratory** evaluation: 12 adversarial runs, 0 observed critical errors and 1 unsupported local claim; **MODIFY (provisional)**. The blind reader was a language model, not an independent human adjudicator. These results do not establish MCP safety or comparative improvement.
+
+Additional prototypes: **[FieldOS](https://github.com/soroushkarahrodi79-oss/fieldos)** (offline-first field observations) and **[Madrid Isovist Demo](https://github.com/soroushkarahrodi79-oss/madrid-isovist-demo)** (browser-based 2D geometric visibility, not field-validated).
 
 ## Skills & Toolbox
 
