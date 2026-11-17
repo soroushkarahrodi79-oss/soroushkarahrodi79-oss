@@ -36,6 +36,7 @@ Mi formación es en turismo y planificación territorial. Los proyectos siguient
 | Proyecto | Fase | Abrir |
 | --- | --- | --- |
 | **Madrid Urban Evidence Lens** | Software de investigación publicado · v0.1.0 | [En vivo](https://soroushkarahrodi79-oss.github.io/madrid-tourism-intelligence-lens/) · [Repositorio](https://github.com/soroushkarahrodi79-oss/madrid-tourism-intelligence-lens) |
+| **SK Spatial Intelligence Lab** | Laboratorio de software y evaluaciones exploratorias · MCP local | [Escaparate público](https://huggingface.co/spaces/soroushkararodi/sk-spatial-intelligence-lab) · [Repositorio](https://github.com/soroushkarahrodi79-oss/sk-spatial-intelligence-lab) |
 | **GeoImpact CI** | Versión estable · v1.2.0 | [Release](https://github.com/soroushkarahrodi79-oss/geoimpact-ci/releases/tag/v1.2.0) · [Repositorio](https://github.com/soroushkarahrodi79-oss/geoimpact-ci) |
 | **HATI-Madrid** | Piloto acotado · archivado (DOI) | [Zenodo](https://doi.org/10.5281/zenodo.22707470) · [Repositorio](https://github.com/soroushkarahrodi79-oss/heat-adaptive-tourism-madrid) |
 | **SNTO** | Prototipo de investigación · v2.0.0 · desplegado | [En vivo](https://snto-observatory.happyground-be027676.swedencentral.azurecontainerapps.io/) · [Repositorio](https://github.com/soroushkarahrodi79-oss/snto-smart-tourism-observatory) |
@@ -52,6 +53,16 @@ Un espacio de trabajo cartográfico en el navegador para comparar dos lugares, o
 **Estado:** software de investigación publicado con pruebas automáticas; última versión etiquetada v0.1.0, con `main` por delante. No es un análisis de planeamiento estatutario ni cubre todo el PGOUM, y no hace recomendaciones.
 
 [Lens en vivo](https://soroushkarahrodi79-oss.github.io/madrid-tourism-intelligence-lens/) · [Afirmaciones y limitaciones](https://github.com/soroushkarahrodi79-oss/madrid-tourism-intelligence-lens/blob/main/docs/CLAIMS_AND_LIMITATIONS.md) · [Procedencia de los datos](https://github.com/soroushkarahrodi79-oss/madrid-tourism-intelligence-lens/blob/main/docs/DATA_PROVENANCE.md)
+
+### [SK Spatial Intelligence Lab](https://github.com/soroushkarahrodi79-oss/sk-spatial-intelligence-lab)
+
+*¿Cómo separar evidencia geoespacial verificable de interpretaciones generadas por modelos?*
+
+Integra un **Madrid Evidence MCP** local, de solo lectura, conectado con registros deterministas de Madrid Urban Evidence Lens; una interfaz local de investigación (*Spatial Investigation Studio*); un escaparate estático en Hugging Face; y protocolos experimentales para evaluar las afirmaciones de agentes. El escaparate no aloja el MCP ni un modelo de lenguaje.
+
+**Estado:** prototipos de ingeniería y estudios exploratorios, no validación científica independiente. La [Stage 2 de Madrid Evidence MCP](https://github.com/soroushkarahrodi79-oss/sk-spatial-intelligence-lab/blob/main/mcp/madrid-evidence/eval/results-stage2/informe-stage2.es.md) (PR #17 fusionada) registró **0/12 errores críticos observados** y **1/12 afirmaciones locales no respaldadas**, con veredicto **MODIFY provisional**. Estudio de brazo único y 6 casos adversariales repetidos dos veces; adjudicación ciega por modelo de lenguaje, no por un evaluador humano independiente. No demuestra que el MCP sea seguro ni superior a otra versión.
+
+[Repositorio](https://github.com/soroushkarahrodi79-oss/sk-spatial-intelligence-lab) · [Evaluaciones](https://github.com/soroushkarahrodi79-oss/sk-spatial-intelligence-lab/tree/main/mcp/madrid-evidence/eval) · [Escaparate en Hugging Face](https://huggingface.co/spaces/soroushkararodi/sk-spatial-intelligence-lab)
 
 ### [GeoImpact CI](https://github.com/soroushkarahrodi79-oss/geoimpact-ci)
 
@@ -99,6 +110,7 @@ Distingo tres tipos de evidencia: **observada** (registrada por un instrumento, 
 | --- | --- | --- |
 | Madrid Lens | MIT | Todavía no |
 | GeoImpact CI | MIT | CITATION.cff; sin DOI |
+| SK Spatial Intelligence Lab | Sin licencia de código publicada | Estudios y trazas reproducibles; sin DOI |
 | HATI-Madrid | MIT solo para el código fuente; datos, manuscrito y figuras no incluidos | CITATION.cff; DOI de Zenodo |
 | SNTO | Uso académico, no es código abierto | CITATION.cff; DOI de Zenodo |
 | FieldOS | Apache-2.0 | Todavía no |
@@ -134,7 +146,7 @@ Me interesan las conversaciones sobre colaboración en investigación, software 
 ## Archivo de investigación
 
 - [Iran Soil Landscapes](https://github.com/soroushkarahrodi79-oss/iran-soil-landscape): cartografía reproducible del grupo de suelo dominante de Irán a partir de HWSD v2.01, con procedencia verificada por sumas de comprobación; el relieve es solo contexto visual y no es un inventario de suelos validado en campo.
-- [CHALUS](https://github.com/soroushkarahrodi79-oss/CHALUS): un piloto histórico de accesibilidad viaria para el oeste de Mazandarán, **cerrado como NO-GO** porque no se cumplió el estándar de verificación preregistrado. Se detuvo antes de cualquier análisis de observación de la Tierra y no hace afirmaciones sobre demora ni demanda turística.
+- **CHALUS (repositorio privado, sin enlace público):** un piloto histórico de accesibilidad viaria para el oeste de Mazandarán, **cerrado como NO-GO** porque no se cumplió el estándar de verificación preregistrado. Se detuvo antes de cualquier análisis de observación de la Tierra y no hace afirmaciones sobre demora ni demanda turística.
 
 <details>
 <summary>Otros prototipos y experimentos</summary>
@@ -142,10 +154,11 @@ Me interesan las conversaciones sobre colaboración en investigación, software 
 - [Tourism Intelligence Desk](https://github.com/soroushkarahrodi79-oss/tourism-intelligence-desk): prototipo de integración que presenta evidencia acotada de HATI y SNTO.
 - [Spatial Intelligence Atlas](https://github.com/soroushkarahrodi79-oss/spatial-intelligence-atlas): mapa explicativo estático de casos de investigación seleccionados, no una plataforma integrada.
 - [FIRSTLOOK-MAD](https://github.com/soroushkarahrodi79-oss/firstlook-mad): prototipo de investigación de respuesta a incendios con UAS, solo en simulación.
+- [Madrid Isovist Demo](https://github.com/soroushkarahrodi79-oss/madrid-isovist-demo): isovistas geométricas 2D en Lavapiés, con cribado de redundancia de resultado mixto; sin validación de visibilidad en campo.
 - [FAB (Field Atlas)](https://github.com/soroushkarahrodi79-oss/fab): evidencia mezclada auténtica, derivada y simulada; su conexión con Sentinel-2 real no está cableada.
-- [Tourism Signal Radar](https://github.com/soroushkarahrodi79-oss/radar): registro de validación; no se ha autorizado ninguna compilación independiente.
+- **Tourism Signal Radar (repositorio privado):** registro de validación; no se ha autorizado ninguna compilación independiente.
 - [SNTO Alpine](https://github.com/soroushkarahrodi79-oss/snto-alpine): prototipo derivado de Sierra Nevada; no hereda la validación ni el DOI de SNTO.
 - [Kelar](https://github.com/soroushkarahrodi79-oss/Kelar): registros de inicio y de un piloto de recuperación acotado; análisis de casos no autorizado.
-- [JOB](https://github.com/soroushkarahrodi79-oss/JOB): prototipo de mercado de trabajo flexible con datos sintéticos.
+- **JOB (repositorio privado):** prototipo de mercado de trabajo flexible con datos sintéticos.
 
 </details>
